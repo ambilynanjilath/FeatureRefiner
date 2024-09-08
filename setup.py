@@ -2,15 +2,16 @@ from setuptools import setup, find_packages
 
 setup(
     name='FeatureRefiner',  
-    version='1.0.0',  
+    version='1.0.2',  
     description='A no-code solution for performing data transformations like imputation, encoding, scaling, and feature creation, with an intuitive interface for interactive DataFrame manipulation and easy CSV export.',  
     long_description=open('README.md').read(),  
     long_description_content_type='text/markdown', 
     author='Ambily Biju', 
     author_email='ambilybiju2408@gmail.com',  
-    url='git@github.com:ambilynanjilath/FeatureRefiner.git',  
+    url='https://github.com/ambilynanjilath/FeatureRefiner',  
     packages=find_packages(),
     include_package_data=True,
+    zip_safe=False,
     install_requires=[
         "pandas>=1.0.0",
         "scikit-learn>=0.22.0",
@@ -22,7 +23,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'run FeatureRefiner = FeatureRefiner.scripts.run_app:main',
+            'run-FeatureRefiner = FeatureRefiner.scripts.run_app:main',
         ],
     },
 

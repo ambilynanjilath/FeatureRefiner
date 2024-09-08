@@ -1,3 +1,34 @@
+Metadata-Version: 2.1
+Name: FeatureRefiner
+Version: 1.0.2
+Summary: A no-code solution for performing data transformations like imputation, encoding, scaling, and feature creation, with an intuitive interface for interactive DataFrame manipulation and easy CSV export.
+Home-page: https://github.com/ambilynanjilath/FeatureRefiner
+Author: Ambily Biju
+Author-email: ambilybiju2408@gmail.com
+Project-URL: Documentation, https://github.com/ambilynanjilath/FeatureRefiner/blob/main/README.md
+Project-URL: Source, https://github.com/ambilynanjilath/FeatureRefiner
+Project-URL: Tracker, https://github.com/ambilynanjilath/FeatureRefiner/issues
+Keywords: data transformation,imputation,encoding,scaling,feature creation,machine learning,data preprocessing,pandas,scikit-learn,feature engineering,data science,Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: scikit-learn>=0.22.0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: streamlit
+Requires-Dist: streamlit-aggrid
+Requires-Dist: setuptools
+
 # FeatureRefiner
 ![FeatureRefiner Logo](FeatureRefiner/scripts/logo.jpeg)
 
