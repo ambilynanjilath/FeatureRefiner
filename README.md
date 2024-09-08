@@ -1,5 +1,5 @@
 # FeatureRefiner
-![FeatureRefiner Logo](/home/user/Documents/FeatureRefiner/FeatureRefiner/scripts/logo.jpeg)
+![FeatureRefiner Logo](FeatureRefiner/scripts/logo.jpeg)
 
 FeatureRefiner is a Python package for feature engineering that provides a set of tools for data transformation, imputation, encoding, scaling, and feature creation. This package comes with an interactive Streamlit interface that allows users to easily apply these transformations to their datasets.
 
