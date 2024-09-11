@@ -1,5 +1,9 @@
 # FeatureRefiner
-![FeatureRefiner Logo](FeatureRefiner/scripts/logo.jpeg)
+# <img src="FeatureRefiner/scripts/logo.jpeg" alt="FeatureRefiner logo" width="200"/>
+
+![PyPI](https://img.shields.io/pypi/v/FeatureRefiner?color=blue&label=pypi&logo=pypi)
+![License](https://img.shields.io/github/license/ambilynanjilath/FeatureRefiner)
+![Python Versions](https://img.shields.io/pypi/pyversions/FeatureRefiner)
 
 FeatureRefiner is a Python package for feature engineering that provides a set of tools for data transformation, imputation, encoding, scaling, and feature creation. This package comes with an interactive Streamlit interface that allows users to easily apply these transformations to their datasets.
 
@@ -45,11 +49,11 @@ It's recommended to install `FeatureRefiner` in a virtual environment to manage 
 Once the virtual environment is activated, you can install `FeatureRefiner` using `pip`:
 
 ```bash
-pip install FeatureRefiner==1.0.0
+pip install FeatureRefiner
 ```
 
 ## Quick Start
-After installing the package, run the FeatureWise interface using:
+After installing the package, run the FeatureRefiner interface using:
 
 ```bash
 run-FeatureRefiner
@@ -64,7 +68,7 @@ To launch the Streamlit app, simply use the command:
 run-FeatureRefiner
 ```
 ### Importing Modules in Python
-You can also use FeatureWise modules directly in your Python scripts:
+You can also use FeatureRefiner modules directly in your Python scripts:
 ```bash
 from FeatureRefiner.imputation import MissingValueImputation
 from FeatureRefiner.encoding import FeatureEncoding
