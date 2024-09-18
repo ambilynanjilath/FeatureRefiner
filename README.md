@@ -7,7 +7,8 @@
 
 FeatureRefiner is a Python package for feature engineering that provides a set of tools for data transformation, imputation, encoding, scaling, and feature creation. This package comes with an interactive Streamlit interface that allows users to easily apply these transformations to their datasets.
 
-![FeatureRefiner Demo](assets/demo_FeatureRefiner.gif)
+[![Video Thumbnail](https://img.youtube.com/vi/SM4Q7kecGjM/maxresdefault.jpg)](https://www.youtube.com/watch?v=SM4Q7kecGjM)
+
 
 ## Features
 
